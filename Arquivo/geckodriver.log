@@ -1,0 +1,97 @@
+1686076335477	geckodriver	INFO	Listening on 127.0.0.1:49869
+1686076338559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49870" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofileZc57OR"
+1686076339557	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofileZc57OR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49870/devtools/browser/9c8c67b5-423e-455a-9719-043158957475
+1686076345835	Marionette	INFO	Listening on port 49879
+1686076346117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+1686076444590	Marionette	INFO	Stopped listening on port 49879
+1686076600371	geckodriver	INFO	Listening on 127.0.0.1:49986
+1686076603395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49987" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofilej4FZZt"
+1686076603831	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofilej4FZZt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49987/devtools/browser/6645da61-1345-4cc2-97f6-639665431c1f
+1686076606657	Marionette	INFO	Listening on port 49992
+1686076607097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1686076710576	Marionette	INFO	Stopped listening on port 49992
+1686858635725	geckodriver	INFO	Listening on 127.0.0.1:61138
+1686858638779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofileOE6paR"
+1686858639860	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofileOE6paR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61139/devtools/browser/4be769f1-e1f3-456b-8909-ef381f3eca5a
+1686858642867	Marionette	INFO	Listening on port 61146
+1686858643023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+1686858682577	Marionette	INFO	Stopped listening on port 61146
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1686858686689	geckodriver	INFO	Listening on 127.0.0.1:61230
+1686858689729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofile2swhkg"
+1686858690138	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofile2swhkg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61231/devtools/browser/885d8914-4280-4ce7-a6b0-0be9ea202efa
+1686858692742	Marionette	INFO	Listening on port 61236
+1686858692910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+1686858774484	Marionette	INFO	Stopped listening on port 61236
+1686858859639	geckodriver	INFO	Listening on 127.0.0.1:61322
+1686858862693	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61323" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofileIH0HBD"
+1686858863100	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofileIH0HBD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61323/devtools/browser/786d2fea-fd57-419c-bda9-2f0c8774d4eb
+1686858865774	Marionette	INFO	Listening on port 61328
+1686858865911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+1686858909619	Marionette	INFO	Stopped listening on port 61328
+1686858944740	geckodriver	INFO	Listening on 127.0.0.1:61418
+1686858947784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofilerSS193"
+1686858948192	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofilerSS193\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61419/devtools/browser/729f8632-65df-4336-b19d-133d9fde2ffa
+1686858950795	Marionette	INFO	Listening on port 61424
+1686858950980	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+[GFX1-]: Unrecognized feature VIDEO_OVERLAY
+1686859458312	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1686918324331	Marionette	INFO	Stopped listening on port 61424
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1686926239378	geckodriver	INFO	Listening on 127.0.0.1:55385
+1686926242436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55386" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofileXgraRH"
+1686926244259	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofileXgraRH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55386/devtools/browser/e8a3dae5-3b29-4ca8-a08b-35185d35ce44
+1686926247421	Marionette	INFO	Listening on port 55392
+1686926247772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1686926259619	Marionette	INFO	Stopped listening on port 55392
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1686926473051	geckodriver	INFO	Listening on 127.0.0.1:55618
+1686926476073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55619" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofile3IqTm8"
+1686926476502	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofile3IqTm8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55619/devtools/browser/bc13437d-b5ee-49f2-a825-4ab4f3761b66
+1686926479335	Marionette	INFO	Listening on port 55625
+1686926479749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1686926498738	Marionette	INFO	Stopped listening on port 55625
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1686926513176	geckodriver	INFO	Listening on 127.0.0.1:55728
+1686926516213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55729" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofilenrucU1"
+1686926516628	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thiago.asouza\\AppData\\Local\\Temp\\rust_mozprofilenrucU1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55729/devtools/browser/32a781e5-198d-4743-9514-8af59dd185a0
+1686926519462	Marionette	INFO	Listening on port 55735
+1686926519911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1686926522343	Marionette	INFO	Stopped listening on port 55735
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
