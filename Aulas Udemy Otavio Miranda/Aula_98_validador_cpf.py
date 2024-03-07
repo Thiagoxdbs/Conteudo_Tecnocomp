@@ -11,7 +11,7 @@ if validacao_true_false:
             for multiplicacao in range(9):
                 validacao_con_ = int(con_)
                 soma_cpf += validacao_con_*cont_
-                cont_ += -1
+                cont_ -= 1
                 break
         else:
             break
