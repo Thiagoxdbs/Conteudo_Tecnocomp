@@ -21,6 +21,14 @@ def cpf(digito , quantidade_cpf):
 
 digito_1 = validacao[:9]
 dig_1 = cpf(digito_1, 10)
-print(dig_1)
+
 digito_2 = validacao[:10]
-print(cpf(digito_2, 11))
+dig_2 = cpf(digito_2, 11)
+
+task_cpf_def = f'{validacao[:9]}{dig_1}{dig_2}'
+
+task_cpf_resultado = "CPF VALIDO" if task_cpf_def == validacao else "CPF INVALIDO"
+
+print(task_cpf_resultado)
+
+
