@@ -24,14 +24,20 @@ def cpf(digito , quantidade_cpf):
     valor = mult_div_10_11 if mult_div_10_11 <= 9 else 0
     return valor
 
+pri_char_ent = validacao[0]
+pri_char_ent_rep = pri_char_ent * len(validacao)
 
-dig_1 = cpf(validacao[:9], 10)
-dig_2 = cpf(validacao[:10], 11)
+if validacao != pri_char_ent_rep:
+    dig_1 = cpf(validacao[:9], 10)
+    dig_2 = cpf(validacao[:10], 11)
 
-task_cpf_def = f'{validacao[:9]}{dig_1}{dig_2}'
+    task_cpf_def = f'{validacao[:9]}{dig_1}{dig_2}'
 
-task_cpf_resultado = "CPF VALIDO" if task_cpf_def == validacao else "CPF INVALIDO"
+    task_cpf_resultado = f"CPF VALIDO \n {task_cpf_def}" \
+        if task_cpf_def == validacao else "CPF INVALIDO\n {task_cpf_def}"
 
-print(task_cpf_resultado)
+    print(task_cpf_resultado)
+else:
+    print('CPF INVALIDO')
 
 
