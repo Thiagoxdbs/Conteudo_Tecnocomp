@@ -1,4 +1,9 @@
-validacao = str(input()).replace(".","").replace("-","")
+import re
+
+validacao = re.sub(
+    r'[^0-9]',
+    '',
+    str(input()))
 
 
 def cpf(digito , quantidade_cpf):
