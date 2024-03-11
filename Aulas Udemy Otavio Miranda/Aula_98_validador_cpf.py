@@ -16,8 +16,7 @@ def cpf(digito , quantidade_cpf):
         print('Valor acima de 11 digitos, teste.')
 
     mult_div_10_11 = (soma_cpf*10)%11
-    validacao_mult_div = mult_div_10_11 <= 9
-    valor = mult_div_10_11 if validacao_mult_div else 0
+    valor = mult_div_10_11 if mult_div_10_11 <= 9 else 0
     return valor
 
 digito_1 = validacao[:9]
