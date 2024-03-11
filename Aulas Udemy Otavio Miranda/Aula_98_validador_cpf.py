@@ -19,11 +19,9 @@ def cpf(digito , quantidade_cpf):
     valor = mult_div_10_11 if mult_div_10_11 <= 9 else 0
     return valor
 
-digito_1 = validacao[:9]
-dig_1 = cpf(digito_1, 10)
 
-digito_2 = validacao[:10]
-dig_2 = cpf(digito_2, 11)
+dig_1 = cpf(validacao[:9], 10)
+dig_2 = cpf(validacao[:10], 11)
 
 task_cpf_def = f'{validacao[:9]}{dig_1}{dig_2}'
 
