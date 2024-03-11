@@ -1,10 +1,16 @@
 import re
+import sys
 
 validacao = re.sub(
     r'[^0-9]',
     '',
     str(input()))
 
+entrada_e_sequencia = validacao == validacao[0] * len(validacao)
+
+if entrada_e_sequencia:
+    print('CPF INVALIDO')
+    sys.exit()
 
 def cpf(digito , quantidade_cpf):
     validacao_true_false = len(validacao) == 11
@@ -27,17 +33,15 @@ def cpf(digito , quantidade_cpf):
 pri_char_ent = validacao[0]
 pri_char_ent_rep = pri_char_ent * len(validacao)
 
-if validacao != pri_char_ent_rep:
-    dig_1 = cpf(validacao[:9], 10)
-    dig_2 = cpf(validacao[:10], 11)
 
-    task_cpf_def = f'{validacao[:9]}{dig_1}{dig_2}'
+dig_1 = cpf(validacao[:9], 10)
+dig_2 = cpf(validacao[:10], 11)
 
-    task_cpf_resultado = f"CPF VALIDO \n {task_cpf_def}" \
-        if task_cpf_def == validacao else "CPF INVALIDO\n {task_cpf_def}"
+task_cpf_def = f'{validacao[:9]}{dig_1}{dig_2}'
 
-    print(task_cpf_resultado)
-else:
-    print('CPF INVALIDO')
+task_cpf_resultado = f"CPF VALIDO \n {task_cpf_def}" \
+    if task_cpf_def == validacao else "CPF INVALIDO\n {task_cpf_def}"
+
+print(task_cpf_resultado)
 
 
