@@ -29,6 +29,7 @@ for pergunta in perguntas:
     for i, opcao in enumerate(pergunta["Opções"]):
         print(f'{i})',opcao)
     resposta = input('Qual sua resposta: ')
+    
     if resposta.isdigit():
         resposta = int(resposta)
         valor = pergunta["Resposta"] == pergunta['Opções'][resposta]
