@@ -20,16 +20,27 @@ perguntas = [
 ]
 
 contador = 0
+
 for pergunta in perguntas:
+    valor = False
     print(pergunta["Pergunta"])
-    for c in range(4):
-        print(f'{c})',pergunta["Opções"][c])
-    resposta = int(input('Qual sua resposta: '))
-    valor = pergunta["Resposta"] == pergunta['Opções'][resposta]
+    print()
+
+    for i, opcao in enumerate(pergunta["Opções"]):
+        print(f'{i})',opcao)
+    resposta = input('Qual sua resposta: ')
+    if resposta.isdigit():
+        resposta = int(resposta)
+        valor = pergunta["Resposta"] == pergunta['Opções'][resposta]
+        print()
+    
     if valor:
         print('Acertou!')
+        print()
         contador += 1
         continue
+
     print("Errou")
+    print()
 
 print(f"Você acertou {contador}")
