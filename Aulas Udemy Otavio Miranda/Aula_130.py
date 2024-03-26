@@ -6,6 +6,6 @@ while True:
 
     if 'l' in letras:
         print('PARABÉNS')
-        break
+        break 
 
     print(letras)
