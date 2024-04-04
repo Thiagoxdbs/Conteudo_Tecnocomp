@@ -12,7 +12,7 @@ def deve_ser_int_ou_float(n):
         raise TypeError(
             f'"{n}" deve ser int ou float. '
             f'"{tipo_n.__name__}" enviado.'
-        )
+        ) 
     return True
 
 
