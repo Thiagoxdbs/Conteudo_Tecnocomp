@@ -1,11 +1,11 @@
 import importlib
 
-import aula98_m
+import aaula98_m
 
-print(aula98_m.variavel)
+print(aaula98_m.variavel)
 
 for i in range(10):
-    importlib.reload(aula98_m)
+    importlib.reload(aaula98_m)
     print(i)
 
 print('Fim')
