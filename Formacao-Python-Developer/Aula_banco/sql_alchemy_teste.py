@@ -7,7 +7,7 @@ from sqlalchemy import Table
 from sqlalchemy import create_engine
 
 
-engine = create_engine('sqlite://')
+engine = create_engine("sqlite:///my_database.db")
 
 metadata_obj = MetaData()
 user = Table(
@@ -57,7 +57,7 @@ insert_text = f"insert into user values{insert_dados}"
 
 
 with engine.connect() as connection:
-    sql_insert = text("insert into user values(2,'thiago','email@email','thi')")
+    sql_insert = text("insert into user values(1,'juliana','email@email','ju')")
     result_insert = connection.execute(sql_insert)
     #print("Número de linhas inseridas:", result_insert.rowcount)
     
